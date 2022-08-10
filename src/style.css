@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 20%;
+}
+
+.mainContainer h1 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 70%;
+  padding-left: 3%;
+}
+
+.mainList {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 0;
+  width: 70%;
+}
+
+.mainList ul {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5%;
+  box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+  margin: 0;
+}
+
+.mainList ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mainList ul li:nth-child(1) {
+  border-top: none;
+}
+
+.checkInput {
+  position: relative;
+  left: -1rem;
+}
+
+.label {
+  width: 90%;
+  color: black;
+}
+
+.clearAllBtn {
+  background-color: #fff;
+  padding: 15px 63px 15px 63px;
+  width: 100%;
+  border: none;
+  display: block;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.addInput {
+  border: none;
+  width: 88%;
+  padding: 20px 20px 20px 20px;
+  font-size: 18.7px;
+}
+
+.upperOfList {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 -3px 8px rgb(0 0 0 / 15%);
+}
