@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Set up project with webpack
+# To Do List project (with Webpack):  List Structure
 
->  Using webpack to bundle JavaScript
+> It's the first milestone to build a simple HTML list of To Do tasks. 
 
 ## Built With
 
@@ -13,7 +13,9 @@
 ## Getting Started
 
 - To get a local copy up, clone the repo like this: 
-   git clone git@github.com:cmolinan/first-webpack-project.git
+   git clone git@github.com:cmolinan/to-do-list.git
+
+- Install the dependencies using `npm install` and then run the project from the root of the folder using this command `npm run start`
 
 ## Author
 
@@ -38,4 +40,3 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./MIT.md) licensed.
 
- 
