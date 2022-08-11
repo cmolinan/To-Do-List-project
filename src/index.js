@@ -6,6 +6,19 @@ let toDoList = [];
 let isEditing = false;
 let todoEdit = null;
 
+const saveData = () => {
+  localStorage.setItem('listToDo', JSON.stringify(toDoList));
+};
+
+const getData = () => {
+  const localFormData = JSON.parse(localStorage.getItem('listToDo'));
+  if (localFormData == null) {
+    toDoList = [];
+  } else {
+    toDoList = localFormData;
+  }
+};
+
 const editList = (todo) => {
   isEditing = true;
   todoEdit = todo;
@@ -102,6 +115,7 @@ const displayToDo = () => {
       actions();
     });
   });
+  saveData();
 };
 // End of Main Object
 
@@ -114,6 +128,7 @@ const addToDo = () => {
     const index = toDoList.length + 1;
     toDoList.push({ completed, description, index });
     displayToDo();
+    saveData();
     desc.value = null;
   }
   toDoList = toDoList.map((todo, index) => ({
@@ -134,6 +149,7 @@ const saveEdit = () => {
       return todo;
     });
     displayToDo();
+    saveData();
     desc.value = null;
     isEditing = false;
     todoEdit = null;
@@ -144,6 +160,7 @@ const saveEdit = () => {
 const getIsEditing = () => isEditing;
 
 window.onload = () => {
+  getData();
   displayToDo();
 };
 
