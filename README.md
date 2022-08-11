@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List project (with Webpack):  List Structure
+# To Do List project (with Webpack):  Add & Remove
 
-> It's the first milestone to build a simple HTML list of To Do tasks. 
+> It's a new milestone to build a simple HTML list of To Do tasks. 
 
 ## Built With
 
 - HTML / CSS 
-- JavaScript: objects and classes with ES6 syntax and modules
+- JavaScript: objects, classes and modules with ES6 syntax 
 - Webpack
 
 ## Getting Started

@@ -20,7 +20,6 @@ ul {
 
 .mainContainer h1 {
   font-size: 20px;
-  font-weight: 600;
   width: 70%;
   padding-left: 3%;
 }
@@ -65,6 +64,12 @@ ul {
 .label {
   width: 90%;
   color: black;
+  border: none;
+}
+
+.para-label {
+  text-decoration: line-through;
+  color: grey;
 }
 
 .clearAllBtn {
@@ -76,15 +81,31 @@ ul {
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }
 
+button {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
 .addInput {
   border: none;
-  width: 88%;
+  width: 100%;
   padding: 20px 20px 20px 20px;
   font-size: 18.7px;
+}
+
+.hide {
+  display: none;
+  cursor: pointer;
 }
 
 .upperOfList {
   display: flex;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 -3px 8px rgb(0 0 0 / 15%);
+}
+
+.changeChk {
+  text-decoration: line-through;
+  color: rgb(71, 80, 80);
 }
