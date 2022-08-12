@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To Do List project (with Webpack):  Add & Remove
+# To Do List project (with Webpack):  Interactive List
 
 > It's a new milestone to build a simple HTML list of To Do tasks. 
 
