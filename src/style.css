@@ -73,12 +73,19 @@ ul {
 }
 
 .clearAllBtn {
+  display: block;
+  font-size: 14px;
   background-color: #fff;
-  padding: 15px 63px 15px 63px;
+  padding: 10px 3% 15px 3%;
   width: 100%;
   border: none;
-  display: block;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.clearAllBtn:hover {
+  border: 1px solid rgb(235, 233, 233);
+  background-color: gray;
+  color: white;
 }
 
 button {
@@ -97,6 +104,13 @@ button {
 .hide {
   display: none;
   cursor: pointer;
+}
+
+.pointsBtn:hover {
+  border: 1px solid gray;
+  width: 10px;
+  align-self: center;
+  cursor: progress;
 }
 
 .upperOfList {
