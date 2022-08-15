@@ -4,6 +4,10 @@
 
 > It's a new milestone to build a simple HTML list of To Do tasks. 
 
+## Live Demo
+
+https://cmolinan.github.io/To-Do-List/
+
 ## Built With
 
 - HTML / CSS 
